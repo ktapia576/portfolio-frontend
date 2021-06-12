@@ -1,14 +1,11 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
+import Layout from '../components/layout';
 
 function AboutPage(){
     return (
-        <main>
-            <title>About</title>
-            <h1>About Us</h1>
-            <Link to="/">Home Page</Link>
+        <Layout pageTitle="About Page">
             <p>This is to test the about page for the website.</p>
-        </main>
+        </Layout>
     );
 }
 

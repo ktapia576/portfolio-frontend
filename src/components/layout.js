@@ -7,8 +7,8 @@ const Layout = ({ pageTitle, children }) => {
       <title>{pageTitle}</title>
       <nav>
         <ul>
-          <li><Link to="/"></Link></li>
-          <li><Link to="/about"></Link></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
         </ul>
       </nav>
       <h1>{pageTitle}</h1>
