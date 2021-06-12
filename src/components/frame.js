@@ -8,4 +8,5 @@ const Frame = ({ children }) => {
     </div>
   )
 }
+
 export default Frame;
