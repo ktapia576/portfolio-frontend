@@ -1,10 +1,13 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import Navbar from '../components/navbar';
 import '../styles/styles.scss';
 
 const IndexPage = () => {
   return (
-    <div className="hero has-background-black-ter is-fullheight">
+    <>
+      <Navbar />
+      <div className="hero has-background-black-ter is-fullheight">
       <div className="hero-body has-text-centered is-flex-direction-column is-justify-content-center">
         <h1 className="title has-text-grey-lighter"> Hello, my name is Kevin Tapia. </h1>
         <h4 className=" has-text-grey mb-5"> 
@@ -14,6 +17,8 @@ const IndexPage = () => {
         <Link to="/projects" className="button is-light is-outlined">View Projects</Link>
       </div>
     </div>
+    </>
+    
   );
 }
 
