@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import Navbar from '../components/navbar';
+import Navbar from '../components/Navbar';
 import '../styles/styles.scss';
 
 const IndexPage = () => {
