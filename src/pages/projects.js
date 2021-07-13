@@ -1,8 +1,14 @@
 import * as React from 'react';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer';
 
 function ProjectsPage(){
     return (
-        <p>This is to test the projects page for the website.</p>
+        <>
+            <Navbar />
+            <p className="has-background-black-ter is-fullheight">This is projects page</p>
+            <Footer />
+        </>
     );
 }
 
