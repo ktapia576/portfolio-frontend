@@ -1,5 +1,19 @@
 @charset "utf-8";
 
 $footer-background-color: hsl(0, 0%, 14%);
+$footer-padding: 3rem 1.5rem 2rem;
+
+.is-full-height {
+    height: 100vh;
+}
+
+.card-button {
+    color: #485fc7;
+    background: none !important;
+    border: none;
+    font-size: 1em;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 @import "~bulma/bulma.sass";
