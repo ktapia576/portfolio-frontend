@@ -6,7 +6,7 @@ function ProjectsPage(){
     return (
         <>
             <Navbar />
-            <p className="has-background-black-ter is-fullheight">This is projects page</p>
+            <p className="hero has-background-black-ter is-fullheight-with-navbar has-text-grey-lighter">This is projects page</p>
             <Footer />
         </>
     );

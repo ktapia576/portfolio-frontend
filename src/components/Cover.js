@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const Hero = () => {
+const Cover = () => {
   return (
-    <div className="hero has-background-black-ter is-fullheight">
+    <div className="hero has-background-black-ter is-fullheight-with-navbar">
         <div className="hero-body has-text-centered is-flex-direction-column is-justify-content-center">
           <h1 className="title has-text-grey-lighter"> Hello, my name is Kevin Tapia. </h1>
           <h4 className=" has-text-grey mb-5"> 
@@ -16,4 +16,4 @@ const Hero = () => {
   )
 }
 
-export default Hero;
+export default Cover;
