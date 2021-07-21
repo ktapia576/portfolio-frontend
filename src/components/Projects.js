@@ -3,7 +3,7 @@ import Card from './Card/Card';
 
 const Projects = () => {
   return (
-    <div className="container has-background-black-ter is-full-height">
+    <div className="container has-background-black-ter is-full-height pt-6">
         <Card />
     </div>
   )
