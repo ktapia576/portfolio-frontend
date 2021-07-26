@@ -5,6 +5,7 @@ const Projects = () => {
   return (
     <div className="container has-background-black-ter is-full-height pt-6">
         <Card />
+        <Card />
     </div>
   )
 }

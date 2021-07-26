@@ -5,7 +5,7 @@ import CardFooter from './CardFooter';
 
 const Card = () => {
   return (
-    <div className="card mx-6">
+    <div className="card mx-6 my-6">
         <CardImage />
         <CardContent />
         <CardFooter />
