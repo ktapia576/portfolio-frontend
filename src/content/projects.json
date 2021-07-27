@@ -6,8 +6,20 @@
             "demoLink": "https://visualization.kevintapia.com",
             "codeLink": "https://github.com/ktapia576/visualization-website",
             "info": {
-                "techList": [],
-                "accomplishments": []
+                "techList": [
+                    "JavaScript",
+                    "PHP",
+                    "MySQL/MariaDB",
+                    "CSS3",
+                    "HTML5",
+                    "Ajax/jQuery",
+                    "Linux"
+                ],
+                "accomplishments": [
+                    "Developed a web application for users who want to visualize and study trends on the data they upload or retrieve.",
+                    "Allows users to login, save personal settings, and retrieve 3 data sets from a MySQL database.",
+                    "Features a variety of tools, including table, bar, line, pie charts, and an interactive map that highlights states in color."
+                ]
             }
         },
         {},
