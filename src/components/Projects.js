@@ -4,13 +4,16 @@ import JSONData from "../content/projects.json";
 
 const projectsData = JSONData.data;
 const projectCards = projectsData.map(project => 
-  <Card description={project.description} />
+  <Card 
+    key={project.name} 
+    description={project.description} 
+    demoLink={project.demoLink}
+  />
 ); 
-
 
 const Projects = () => {
   return (
-    <div className="container has-background-black-ter is-full-height pt-3">
+    <div className="container has-background-black-ter py-2">
       {projectCards}
     </div>
   )

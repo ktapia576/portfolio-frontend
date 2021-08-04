@@ -8,7 +8,7 @@ const Card = (props) => {
     <div className="card mx-6 my-5">
         <CardImage />
         <CardContent description={props.description}/>
-        <CardFooter />
+        <CardFooter demoLink={props.demoLink} codeLink={props.codeLink} />
     </div>
   )
 }

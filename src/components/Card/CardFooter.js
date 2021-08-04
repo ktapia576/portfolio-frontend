@@ -1,11 +1,11 @@
 import React from 'react';
 
-const CardFooter = () => {
+const CardFooter = (props) => {
   return (
     <footer className="card-footer">
-        <button className="card-button card-footer-item">Save</button>
-        <button className="card-button card-footer-item">Edit</button>
-        <button className="card-button card-footer-item">Delete</button>
+        <button className="card-button card-footer-item">Info</button>
+        <a href={props.demoLink} target="_blank" rel="noreferrer" className="card-footer-item">Demo</a>
+        <button className="card-button card-footer-item">Code</button>
     </footer>
   )
 }
