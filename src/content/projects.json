@@ -22,7 +22,100 @@
                 ]
             }
         },
-        {},
-        {}
+        {
+            "name": "CS:GO Stat Tracker",
+            "description": "Vue.js application to allow users to see a player's in game stats",
+            "demoLink": "https://csgotracker.kevintapia.com",
+            "codeLink": "https://github.com/ktapia576/csgo-tracker",
+            "info": {
+                "techList": [
+                    "Vue.js",
+                    "Vue-router",
+                    "JavaScript",
+                    "Bootstrap 4",
+                    "CSS3",
+                    "HTML5",
+                    "Node.js",
+                    "Express",
+                    "Axios",
+                    "REST API",
+                    "Git"
+                ],
+                "accomplishments": [
+                    "Developed web application displaying 7 realtime profile career stats using Tracker Network API.",
+                    "Utilized Vue.js Single File Component System to easily reuse and organize components.",
+                    "Used vue-router to handle 2 routes between the home page and show profile page.",
+                    "Handled API requests in the front-end and back-end using Axios.",
+                    "Made use of Node.js config.env to handle production and development enviroment separately"
+                ]
+            }
+        },
+        {
+            "name": "Virtual Assistant",
+            "description": "Research project testing how users learn from chatbot assistance",
+            "demoLink": "https://assistant.kevintapia.com",
+            "codeLink": "https://github.com/ktapia576/Virtual-Assistant-Mental-Health",
+            "info": {
+                "techList": [
+                    "JavaScript",
+                    "Node.js",
+                    "Bootstrap 4",
+                    "CSS3",
+                    "HTML5",
+                    "Linux",
+                    "Pug.js",
+                    "Git"
+                ],
+                "accomplishments": [
+                    "Built interactive chatbot using JavaScript, Node.js, HTML5, and CSS3 displaying over 10 financial tips to users in chat."
+                ]
+            }
+        },
+        {
+            "name": "Portfolio Website",
+            "description": "Built on a Digital Ocean Droplet needing server configurations",
+            "demoLink": "",
+            "codeLink": "https://github.com/ktapia576/portfolio",
+            "info": {
+                "techList": [
+                    "React.js",
+                    "JavaScript",
+                    "Node.js",
+                    "Bulma",
+                    "CSS3",
+                    "HTML5",
+                    "NGINX",
+                    "Linux",
+                    "Git"
+                ],
+                "accomplishments": [
+                    "Hosted on a Digital Ocean Droplet using NGINX as reverse proxy for security and subdomain handling.",
+                    "Automates the renewal of an HTTPS Certificate using Let's Encrypt on Ubuntu 20.",
+                    "Uses Node.js for the server side and utilizes Pug.js as a template engine for serving HTML pages.",
+                    "Designed and implented from scratch using the framework Bootstrap 4."
+                ]
+            }
+        },
+        {
+            "name": "Grand Theft Auto V Mod",
+            "description": "A created mod that has achieved over 1,900 unique downloads",
+            "demoLink": "https://gtapolicemods.com/index.php?/files/file/1171-suspicious-person-callout-multiple-outcomes/",
+            "codeLink": "https://github.com/ktapia576/SuspiciousPersonCallout/blob/master/SuspiciousPersonCallout.cs",
+            "info": {
+                "techList": [
+                    "C#",
+                    "Object Oriented",
+                    "FivePD API",
+                    "Git"
+                ],
+                "accomplishments": [
+                    "Developed web application displaying 7 realtime profile career stats using Tracker Network API.",
+                    "Utilized Vue.js Single File Component System to easily reuse and organize components.",
+                    "Used vue-router to handle 2 routes between the home page and show profile page.",
+                    "Handled API requests in the front-end and back-end using Axios.",
+                    "Made use of Node.js config.env to handle production and development enviroment separately"
+                ]
+            }
+        }
     ]
 }
