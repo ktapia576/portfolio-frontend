@@ -1,9 +1,9 @@
 import React from 'react';
 
-const CardContent = () => {
+const CardContent = (props) => {
   return (
     <div className="card-content">
-        <p>Test Content for the card being tested right now.</p>
+      <p>{props.description}</p>
     </div>
   )
 }

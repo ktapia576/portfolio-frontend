@@ -3,11 +3,11 @@ import CardImage from './CardImage';
 import CardContent from './CardContent';
 import CardFooter from './CardFooter';
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div className="card mx-6 my-5">
         <CardImage />
-        <CardContent />
+        <CardContent description={props.description}/>
         <CardFooter />
     </div>
   )
